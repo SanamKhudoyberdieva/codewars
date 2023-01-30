@@ -6,3 +6,9 @@ function areYouPlayingBanjo(name) {
         return `${name} does not play banjo`
     }
 }
+
+
+// Not mine 
+function areYouPlayingBanjo(name) {
+    return name + (name[0].toLowerCase() == 'r' ? ' plays' : ' does not play') + " banjo";
+}

@@ -1,3 +1,6 @@
-function removeEveryOther(arr) {
-    return arr.filter((element, index) => index % 2 === 0);
+function removeEveryOther(arr){
+    for (var i = 1; i < arr.length;i++){
+        arr.splice(i,1);
+    }
+    return arr;
 }

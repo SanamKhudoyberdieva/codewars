@@ -9,3 +9,5 @@ function countSmileys(arr) {
     }
     return count;
 }
+
+// (':' || ';') && ('D' || ')') && (str.length == 3 && str.length == 2) && 
